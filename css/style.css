@@ -1,0 +1,28 @@
+/* Created by: Infinity de Guzman
+ * Created on: May 2021
+ * This CSS file defines the style for index.html ICS2O-Unit6-01-HTML-Query_Strings
+*/
+
+body {
+  background-color: #fdd58b;
+  color: #ce6c36;
+}
+
+h1 {
+  background-color: #ce6c36;
+  color: #fff;
+  padding: 40px;
+  text-align: center;
+}
+
+h2 {
+  background-color: #fff;
+  color: #ce6c36;
+  padding: 20px;
+}
+
+h3 {
+  background-color: #fff;
+  color: #ce6c36;
+  padding: 10px;
+}

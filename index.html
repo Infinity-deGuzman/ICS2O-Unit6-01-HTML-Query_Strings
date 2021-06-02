@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Volume of a Sphere, with a Query String">
+    <meta name="keywords" content="mths, ics2o">
+    <meta name="author" content="Infinity de Guzman">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/sunset-32x32.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/sunset-16x16.ico">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Volume of a Sphere, with a Query String</title>
+  </head>
+  <body>
+    <script src="./js/script.js"></script>
+    <h1>Volume of a Sphere, Query String</h1>
+    <h2>Formula</h2>
+    <h3>V = 4/3 x pi x r³ </h3>
+    <p>
+      Please enter the radius (if you can't add a query string):
+      <form action="javascript:enterClicked()">
+        <label for="radius">Radius:</label>
+        <input type="number" step="any" id="radius" placeholder="e.g 3.2 cm">&nbspcm<br><br>
+        <input type="submit" value="Calculate">
+      </form>
+    </p>
+    <div id="answers">
+      The dimensions are:
+      <div id="dimensions"></div>
+      <div id="volume"></div>
+    </div>
+  </body>
+</html>
